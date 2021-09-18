@@ -10,7 +10,7 @@
 ![](img/Dasi_Atas_Belakang.jpg)
 
 ## Dasi Tampang Atas Kanan
-![](img/Dasi_Atas_Kanan.jpg)
+![](img/Dasi_Atas_kanan.jpg)
 
 ## Dasi Tampak Atas Kiri
 ![](img/Dasi_Atas_Kiri.jpg)

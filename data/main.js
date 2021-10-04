@@ -66,86 +66,86 @@ function main() {
         ...dasi.statis_l, ...dasi.line_color_dasi,
         ...dasi.statis_c, ...dasi.line_color_dasi,
         ...dasi.statis_t, ...dasi.line_color_dasi,
-        ...dasi.statis_s, ...dasi.line_color_dasi,
+        ...dasi.statis_s, ...dasi.line_color_dasi,//30
         ...dasi.statis_c, ...dasi.line_color_dasi,
         ...dasi.statis_s, ...dasi.line_color_dasi,
         ...dasi.statis_k, ...dasi.line_color_dasi,
         ...dasi.statis_b, ...dasi.line_color_dasi,
         ...dasi.statis_l, ...dasi.line_color_dasi,
-        ...dasi.statis_k, ...dasi.line_color_dasi,
+        ...dasi.statis_k, ...dasi.line_color_dasi,//60
         ...dasi.statis_l, ...dasi.line_color_dasi,
         ...dasi.statis_b, ...dasi.line_color_dasi,
         ...dasi.statis_c, ...dasi.line_color_dasi,
         ...dasi.statis_c, ...dasi.line_color_dasi,
         ...dasi.statis_d, ...dasi.line_color_dasi,
-        ...dasi.statis_k, ...dasi.line_color_dasi,
+        ...dasi.statis_k, ...dasi.line_color_dasi,//90
         ...dasi.statis_j, ...dasi.line_color_dasi,
         ...dasi.statis_d, ...dasi.line_color_dasi,
         ...dasi.statis_l, ...dasi.line_color_dasi,
         ...dasi.statis_j, ...dasi.line_color_dasi,
         ...dasi.statis_d, ...dasi.line_color_dasi,
-        ...dasi.statis_b, ...dasi.line_color_dasi,
+        ...dasi.statis_b, ...dasi.line_color_dasi,//120
         ...dasi.statis_j, ...dasi.line_color_dasi,
         ...dasi.statis_d, ...dasi.line_color_dasi,
         ...dasi.statis_q, ...dasi.line_color_dasi,
         ...dasi.statis_j, ...dasi.line_color_dasi,
         ...dasi.statis_c, ...dasi.line_color_dasi,
-        ...dasi.statis_k, ...dasi.line_color_dasi,
+        ...dasi.statis_k, ...dasi.line_color_dasi,//150
         ...dasi.statis_p, ...dasi.line_color_dasi,
         ...dasi.statis_d, ...dasi.line_color_dasi,
         ...dasi.statis_q, ...dasi.line_color_dasi,
         ...dasi.statis_p, ...dasi.line_color_dasi,
         ...dasi.statis_d, ...dasi.line_color_dasi,
-        ...dasi.statis_e, ...dasi.line_color_dasi,
+        ...dasi.statis_e, ...dasi.line_color_dasi,//180
         ...dasi.statis_p, ...dasi.line_color_dasi,
         ...dasi.statis_o, ...dasi.line_color_dasi,
         ...dasi.statis_e, ...dasi.line_color_dasi,
         ...dasi.statis_e, ...dasi.line_color_dasi,
         ...dasi.statis_o, ...dasi.line_color_dasi,
-        ...dasi.statis_f, ...dasi.line_color_dasi,
+        ...dasi.statis_f, ...dasi.line_color_dasi,//210
         ...dasi.statis_g, ...dasi.line_color_dasi,
         ...dasi.statis_o, ...dasi.line_color_dasi,
         ...dasi.statis_f, ...dasi.line_color_dasi,
         ...dasi.statis_g, ...dasi.line_color_dasi,
         ...dasi.statis_o, ...dasi.line_color_dasi,
-        ...dasi.statis_n, ...dasi.line_color_dasi,
+        ...dasi.statis_n, ...dasi.line_color_dasi,//240
         ...dasi.statis_n, ...dasi.line_color_dasi,
         ...dasi.statis_o, ...dasi.line_color_dasi,
         ...dasi.statis_f, ...dasi.line_color_dasi,
         ...dasi.statis_g, ...dasi.line_color_dasi,
         ...dasi.statis_m, ...dasi.line_color_dasi,
-        ...dasi.statis_n, ...dasi.line_color_dasi,
+        ...dasi.statis_n, ...dasi.line_color_dasi,//270
         ...dasi.statis_g, ...dasi.line_color_dasi,
         ...dasi.statis_r, ...dasi.line_color_dasi,
         ...dasi.statis_m, ...dasi.line_color_dasi,
         ...dasi.statis_h, ...dasi.line_color_dasi,
         ...dasi.statis_r, ...dasi.line_color_dasi,
-        ...dasi.statis_g, ...dasi.line_color_dasi,
+        ...dasi.statis_g, ...dasi.line_color_dasi,//300
         ...dasi.statis_h, ...dasi.line_color_dasi,
         ...dasi.statis_i, ...dasi.line_color_dasi,
         ...dasi.statis_r, ...dasi.line_color_dasi,
         ...dasi.statis_h, ...dasi.line_color_dasi,
         ...dasi.statis_r, ...dasi.line_color_dasi,
-        ...dasi.statis_m, ...dasi.line_color_dasi,
+        ...dasi.statis_m, ...dasi.line_color_dasi,//330
         ...dasi.statis_i, ...dasi.line_color_dasi,
         ...dasi.statis_r, ...dasi.line_color_dasi,
         ...dasi.statis_q, ...dasi.line_color_dasi,
         ...dasi.statis_j, ...dasi.line_color_dasi,
         ...dasi.statis_i, ...dasi.line_color_dasi,
-        ...dasi.statis_q, ...dasi.line_color_dasi,
+        ...dasi.statis_q, ...dasi.line_color_dasi,//360
         //lubang dasi kiri
         ...dasi.statis_m, ...dasi.line_green_color2,
         ...dasi.statis_r, ...dasi.line_green_color2,
         ...dasi.statis_q, ...dasi.line_green_color2,
         ...dasi.statis_m, ...dasi.line_green_color2,
         ...dasi.statis_q, ...dasi.line_green_color2,
-        ...dasi.statis_n, ...dasi.line_green_color2,
+        ...dasi.statis_n, ...dasi.line_green_color2,//390
         ...dasi.statis_n, ...dasi.line_green_color2,
         ...dasi.statis_q, ...dasi.line_green_color2,
         ...dasi.statis_o, ...dasi.line_green_color2,
         ...dasi.statis_q, ...dasi.line_green_color2,
         ...dasi.statis_p, ...dasi.line_green_color2,
-        ...dasi.statis_o, ...dasi.line_green_color2,
+        ...dasi.statis_o, ...dasi.line_green_color2,//420
 
         
 
@@ -155,55 +155,55 @@ function main() {
         ...dasi_2.line_c, ...dasi_2.line_color,
         ...dasi_2.line_b, ...dasi_2.line_color,
         ...dasi_2.line_c, ...dasi_2.line_color,
-        ...dasi_2.line_d, ...dasi_2.line_color,
+        ...dasi_2.line_d, ...dasi_2.line_color,//450
         ...dasi_2.line_b, ...dasi_2.line_color,
         ...dasi_2.line_s, ...dasi_2.line_color,
         ...dasi_2.line_d, ...dasi_2.line_color,
         ...dasi_2.line_s, ...dasi_2.line_color,
         ...dasi_2.line_d, ...dasi_2.line_color,
-        ...dasi_2.line_r, ...dasi_2.line_color,
+        ...dasi_2.line_r, ...dasi_2.line_color,//480
         ...dasi_2.line_d, ...dasi_2.line_color,
         ...dasi_2.line_r, ...dasi_2.line_color,
         ...dasi_2.line_q, ...dasi_2.line_color,
         ...dasi_2.line_d, ...dasi_2.line_color,
         ...dasi_2.line_e, ...dasi_2.line_color,
-        ...dasi_2.line_q, ...dasi_2.line_color,
+        ...dasi_2.line_q, ...dasi_2.line_color,//510
         ...dasi_2.line_q, ...dasi_2.line_color,
         ...dasi_2.line_e, ...dasi_2.line_color,
         ...dasi_2.line_p, ...dasi_2.line_color,
         ...dasi_2.line_e, ...dasi_2.line_color,
         ...dasi_2.line_f, ...dasi_2.line_color,
-        ...dasi_2.line_p, ...dasi_2.line_color,
+        ...dasi_2.line_p, ...dasi_2.line_color,//540
         ...dasi_2.line_f, ...dasi_2.line_color,
         ...dasi_2.line_p, ...dasi_2.line_color,
         ...dasi_2.line_o, ...dasi_2.line_color,
         ...dasi_2.line_f, ...dasi_2.line_color,
         ...dasi_2.line_g, ...dasi_2.line_color,
-        ...dasi_2.line_o, ...dasi_2.line_color,
+        ...dasi_2.line_o, ...dasi_2.line_color,//570
         ...dasi_2.line_g, ...dasi_2.line_color,
         ...dasi_2.line_h, ...dasi_2.line_color,
         ...dasi_2.line_o, ...dasi_2.line_color,
         ...dasi_2.line_g, ...dasi_2.line_color,
         ...dasi_2.line_o, ...dasi_2.line_color,
-        ...dasi_2.line_n, ...dasi_2.line_color,
+        ...dasi_2.line_n, ...dasi_2.line_color,//600
         ...dasi_2.line_t, ...dasi_2.line_color,
         ...dasi_2.line_g, ...dasi_2.line_color,
         ...dasi_2.line_n, ...dasi_2.line_color,
         ...dasi_2.line_t, ...dasi_2.line_color,
         ...dasi_2.line_v, ...dasi_2.line_color,
-        ...dasi_2.line_m, ...dasi_2.line_color,
+        ...dasi_2.line_m, ...dasi_2.line_color,//630
         ...dasi_2.line_n, ...dasi_2.line_color,
         ...dasi_2.line_v, ...dasi_2.line_color,
         ...dasi_2.line_m, ...dasi_2.line_color,
         ...dasi_2.line_v, ...dasi_2.line_color,
         ...dasi_2.line_m, ...dasi_2.line_color,
-        ...dasi_2.line_l, ...dasi_2.line_color,
+        ...dasi_2.line_l, ...dasi_2.line_color,//660
         ...dasi_2.line_v, ...dasi_2.line_color,
         ...dasi_2.line_w, ...dasi_2.line_color,
         ...dasi_2.line_l, ...dasi_2.line_color,
         ...dasi_2.line_w, ...dasi_2.line_color,
         ...dasi_2.line_k, ...dasi_2.line_color,
-        ...dasi_2.line_l, ...dasi_2.line_color,
+        ...dasi_2.line_l, ...dasi_2.line_color,//690
         ...dasi_2.line_x, ...dasi_2.line_color,
         ...dasi_2.line_w, ...dasi_2.line_color,
         ...dasi_2.line_k, ...dasi_2.line_color,
@@ -333,13 +333,13 @@ function main() {
 
     function moveVertices() {
 
-        if (vertices[231] < -1.0 || vertices[118] > 1.0) {
+        if (vertices[636]-0.05 < -1.0 || vertices[681]+0.07 > 1.0) {
             speed = speed * -1;
         }
 
-        // for (let i = 101; i < vertices.length; i += 5) {
-        //     vertices[i] = vertices[i] + speed;
-        // }
+        for (let i = 421; i < vertices.length; i += 5) {
+            vertices[i] = vertices[i] + speed;
+        }
     }
 
 

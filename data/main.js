@@ -25,10 +25,10 @@ function main() {
         statis_s: [-0.59,0.48],
         statis_t: [-0.49,0.485],
         
-        line_blue_color2:[0.0752, 0.738, 0.940],
+        line_brown_color2:[0.460, 0.225, 0.00460],
 
         
-        line_color_logo:[0.894, 0.990, 0.0297],
+        line_color_logo:[0.00910, 0.865, 0.910],
         line_logo_a: [-0.6,0.355],
         line_logo_b: [-0.58,0.304],
         line_logo_c: [-0.515,0.299],
@@ -59,14 +59,14 @@ function main() {
         line_r:  [0.392,0.357],
         line_s:  [0.283,0.35],
 
-        line_blue_color:[0.0752, 0.738, 0.940],
+        line_brown_color:[0.460, 0.225, 0.00460],
         line_t:  [0.77,0.398],
         line_u:  [0.83,0.425],
         line_v:  [0.841,0.36],
         line_w:  [0.91,0.363],
         line_x:  [0.9,0.391],
 
-        line_color_logo2:[0.894, 0.990, 0.0297],
+        line_color_logo2:[0.00910, 0.865, 0.910],
         line_logo_a2: [0.27,0.4],
         line_logo_b2: [0.27,0.375],
         line_logo_c2: [0.33,0.367],
@@ -150,18 +150,18 @@ function main() {
         ...dasi.statis_i, ...dasi.line_color_dasi,
         ...dasi.statis_q, ...dasi.line_color_dasi,//360
         //lubang dasi kiri
-        ...dasi.statis_m, ...dasi.line_blue_color2,
-        ...dasi.statis_r, ...dasi.line_blue_color2,
-        ...dasi.statis_q, ...dasi.line_blue_color2,
-        ...dasi.statis_m, ...dasi.line_blue_color2,
-        ...dasi.statis_q, ...dasi.line_blue_color2,
-        ...dasi.statis_n, ...dasi.line_blue_color2,//390
-        ...dasi.statis_n, ...dasi.line_blue_color2,
-        ...dasi.statis_q, ...dasi.line_blue_color2,
-        ...dasi.statis_o, ...dasi.line_blue_color2,
-        ...dasi.statis_q, ...dasi.line_blue_color2,
-        ...dasi.statis_p, ...dasi.line_blue_color2,
-        ...dasi.statis_o, ...dasi.line_blue_color2,//420
+        ...dasi.statis_m, ...dasi.line_brown_color2,
+        ...dasi.statis_r, ...dasi.line_brown_color2,
+        ...dasi.statis_q, ...dasi.line_brown_color2,
+        ...dasi.statis_m, ...dasi.line_brown_color2,
+        ...dasi.statis_q, ...dasi.line_brown_color2,
+        ...dasi.statis_n, ...dasi.line_brown_color2,//390
+        ...dasi.statis_n, ...dasi.line_brown_color2,
+        ...dasi.statis_q, ...dasi.line_brown_color2,
+        ...dasi.statis_o, ...dasi.line_brown_color2,
+        ...dasi.statis_q, ...dasi.line_brown_color2,
+        ...dasi.statis_p, ...dasi.line_brown_color2,
+        ...dasi.statis_o, ...dasi.line_brown_color2,//420
 
         ...dasi.line_logo_a, ...dasi.line_color_logo,
         ...dasi.line_logo_b, ...dasi.line_color_logo,
@@ -257,15 +257,15 @@ function main() {
         ...dasi_2.line_n, ...dasi_2.line_color,
 
         //lubang putih dasi
-        ...dasi_2.line_t, ...dasi_2.line_blue_color,
-        ...dasi_2.line_u, ...dasi_2.line_blue_color,
-        ...dasi_2.line_v, ...dasi_2.line_blue_color,
-        ...dasi_2.line_v, ...dasi_2.line_blue_color,
-        ...dasi_2.line_u, ...dasi_2.line_blue_color,
-        ...dasi_2.line_x, ...dasi_2.line_blue_color,
-        ...dasi_2.line_v, ...dasi_2.line_blue_color,
-        ...dasi_2.line_w, ...dasi_2.line_blue_color,
-        ...dasi_2.line_x, ...dasi_2.line_blue_color,
+        ...dasi_2.line_t, ...dasi_2.line_brown_color,
+        ...dasi_2.line_u, ...dasi_2.line_brown_color,
+        ...dasi_2.line_v, ...dasi_2.line_brown_color,
+        ...dasi_2.line_v, ...dasi_2.line_brown_color,
+        ...dasi_2.line_u, ...dasi_2.line_brown_color,
+        ...dasi_2.line_x, ...dasi_2.line_brown_color,
+        ...dasi_2.line_v, ...dasi_2.line_brown_color,
+        ...dasi_2.line_w, ...dasi_2.line_brown_color,
+        ...dasi_2.line_x, ...dasi_2.line_brown_color,
 
         //logo gambar kanan
         ...dasi_2.line_logo_a2, ...dasi_2.line_color_logo2,
@@ -388,7 +388,7 @@ function main() {
         gl.uniform1f(uChange, change);
 
         
-        gl.clearColor(0.0752, 0.738, 0.940, 1.0);
+        gl.clearColor(0.460, 0.225, 0.00460, 1.0);
         gl.clear(gl.COLOR_BUFFER_BIT);
         var primitive = gl.TRIANGLES;
         var offset = 0;

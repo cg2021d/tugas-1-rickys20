@@ -3,7 +3,7 @@ function main() {
     var gl = canvas.getContext('webgl');
 
     const dasi = {
-        line_color_dasi: [0.340, 0.330, 0.330],
+        line_color_dasi: [0.0150, 0.0763, 0.750],
         statis_a: [-0.55,0.06],
         statis_b: [-0.46,0.157],
         statis_c: [-0.504,0.642],
@@ -25,12 +25,20 @@ function main() {
         statis_s: [-0.59,0.48],
         statis_t: [-0.49,0.485],
         
-        line_green_color2:[0.760, 1.0, 0.380],
+        line_blue_color2:[0.0752, 0.738, 0.940],
+
+        
+        line_color_logo:[0.894, 0.990, 0.0297],
+        line_logo_a: [-0.6,0.355],
+        line_logo_b: [-0.58,0.304],
+        line_logo_c: [-0.515,0.299],
+        line_logo_d: [-0.5,0.356],
+        line_logo_e: [-0.54,0.385]
     };
 
 
     const dasi_2 = {
-        line_color: [0.340, 0.330, 0.330],
+        line_color: [0.0150, 0.0763, 0.750],
         line_a:  [0.07, 0.39],
         line_b:  [0.15, 0.34],
         line_c:  [0.16, 0.42],
@@ -51,12 +59,20 @@ function main() {
         line_r:  [0.392,0.357],
         line_s:  [0.283,0.35],
 
-        line_green_color:[0.760, 1.0, 0.380],
+        line_blue_color:[0.0752, 0.738, 0.940],
         line_t:  [0.77,0.398],
         line_u:  [0.83,0.425],
         line_v:  [0.841,0.36],
         line_w:  [0.91,0.363],
         line_x:  [0.9,0.391],
+
+        line_color_logo2:[0.894, 0.990, 0.0297],
+        line_logo_a2: [0.27,0.4],
+        line_logo_b2: [0.27,0.375],
+        line_logo_c2: [0.33,0.367],
+        line_logo_d2: [0.355,0.39],
+        line_logo_e2: [0.317,0.416]
+
     };
 
     const vertices = [
@@ -134,18 +150,29 @@ function main() {
         ...dasi.statis_i, ...dasi.line_color_dasi,
         ...dasi.statis_q, ...dasi.line_color_dasi,//360
         //lubang dasi kiri
-        ...dasi.statis_m, ...dasi.line_green_color2,
-        ...dasi.statis_r, ...dasi.line_green_color2,
-        ...dasi.statis_q, ...dasi.line_green_color2,
-        ...dasi.statis_m, ...dasi.line_green_color2,
-        ...dasi.statis_q, ...dasi.line_green_color2,
-        ...dasi.statis_n, ...dasi.line_green_color2,//390
-        ...dasi.statis_n, ...dasi.line_green_color2,
-        ...dasi.statis_q, ...dasi.line_green_color2,
-        ...dasi.statis_o, ...dasi.line_green_color2,
-        ...dasi.statis_q, ...dasi.line_green_color2,
-        ...dasi.statis_p, ...dasi.line_green_color2,
-        ...dasi.statis_o, ...dasi.line_green_color2,//420
+        ...dasi.statis_m, ...dasi.line_blue_color2,
+        ...dasi.statis_r, ...dasi.line_blue_color2,
+        ...dasi.statis_q, ...dasi.line_blue_color2,
+        ...dasi.statis_m, ...dasi.line_blue_color2,
+        ...dasi.statis_q, ...dasi.line_blue_color2,
+        ...dasi.statis_n, ...dasi.line_blue_color2,//390
+        ...dasi.statis_n, ...dasi.line_blue_color2,
+        ...dasi.statis_q, ...dasi.line_blue_color2,
+        ...dasi.statis_o, ...dasi.line_blue_color2,
+        ...dasi.statis_q, ...dasi.line_blue_color2,
+        ...dasi.statis_p, ...dasi.line_blue_color2,
+        ...dasi.statis_o, ...dasi.line_blue_color2,//420
+
+        ...dasi.line_logo_a, ...dasi.line_color_logo,
+        ...dasi.line_logo_b, ...dasi.line_color_logo,
+        ...dasi.line_logo_c, ...dasi.line_color_logo,
+        ...dasi.line_logo_a, ...dasi.line_color_logo,
+        ...dasi.line_logo_c, ...dasi.line_color_logo,
+        ...dasi.line_logo_e, ...dasi.line_color_logo,//450
+        ...dasi.line_logo_c, ...dasi.line_color_logo,
+        ...dasi.line_logo_d, ...dasi.line_color_logo,
+        ...dasi.line_logo_e, ...dasi.line_color_logo,//465
+        
 
         
 
@@ -155,55 +182,55 @@ function main() {
         ...dasi_2.line_c, ...dasi_2.line_color,
         ...dasi_2.line_b, ...dasi_2.line_color,
         ...dasi_2.line_c, ...dasi_2.line_color,
-        ...dasi_2.line_d, ...dasi_2.line_color,//450
+        ...dasi_2.line_d, ...dasi_2.line_color,
         ...dasi_2.line_b, ...dasi_2.line_color,
         ...dasi_2.line_s, ...dasi_2.line_color,
         ...dasi_2.line_d, ...dasi_2.line_color,
         ...dasi_2.line_s, ...dasi_2.line_color,
         ...dasi_2.line_d, ...dasi_2.line_color,
-        ...dasi_2.line_r, ...dasi_2.line_color,//480
+        ...dasi_2.line_r, ...dasi_2.line_color,
         ...dasi_2.line_d, ...dasi_2.line_color,
         ...dasi_2.line_r, ...dasi_2.line_color,
         ...dasi_2.line_q, ...dasi_2.line_color,
         ...dasi_2.line_d, ...dasi_2.line_color,
         ...dasi_2.line_e, ...dasi_2.line_color,
-        ...dasi_2.line_q, ...dasi_2.line_color,//510
+        ...dasi_2.line_q, ...dasi_2.line_color,
         ...dasi_2.line_q, ...dasi_2.line_color,
         ...dasi_2.line_e, ...dasi_2.line_color,
         ...dasi_2.line_p, ...dasi_2.line_color,
         ...dasi_2.line_e, ...dasi_2.line_color,
         ...dasi_2.line_f, ...dasi_2.line_color,
-        ...dasi_2.line_p, ...dasi_2.line_color,//540
+        ...dasi_2.line_p, ...dasi_2.line_color,
         ...dasi_2.line_f, ...dasi_2.line_color,
         ...dasi_2.line_p, ...dasi_2.line_color,
         ...dasi_2.line_o, ...dasi_2.line_color,
         ...dasi_2.line_f, ...dasi_2.line_color,
         ...dasi_2.line_g, ...dasi_2.line_color,
-        ...dasi_2.line_o, ...dasi_2.line_color,//570
+        ...dasi_2.line_o, ...dasi_2.line_color,
         ...dasi_2.line_g, ...dasi_2.line_color,
         ...dasi_2.line_h, ...dasi_2.line_color,
         ...dasi_2.line_o, ...dasi_2.line_color,
         ...dasi_2.line_g, ...dasi_2.line_color,
         ...dasi_2.line_o, ...dasi_2.line_color,
-        ...dasi_2.line_n, ...dasi_2.line_color,//600
+        ...dasi_2.line_n, ...dasi_2.line_color,
         ...dasi_2.line_t, ...dasi_2.line_color,
         ...dasi_2.line_g, ...dasi_2.line_color,
         ...dasi_2.line_n, ...dasi_2.line_color,
         ...dasi_2.line_t, ...dasi_2.line_color,
         ...dasi_2.line_v, ...dasi_2.line_color,
-        ...dasi_2.line_m, ...dasi_2.line_color,//630
+        ...dasi_2.line_m, ...dasi_2.line_color,
         ...dasi_2.line_n, ...dasi_2.line_color,
         ...dasi_2.line_v, ...dasi_2.line_color,
         ...dasi_2.line_m, ...dasi_2.line_color,
         ...dasi_2.line_v, ...dasi_2.line_color,
         ...dasi_2.line_m, ...dasi_2.line_color,
-        ...dasi_2.line_l, ...dasi_2.line_color,//660
+        ...dasi_2.line_l, ...dasi_2.line_color,
         ...dasi_2.line_v, ...dasi_2.line_color,
         ...dasi_2.line_w, ...dasi_2.line_color,
         ...dasi_2.line_l, ...dasi_2.line_color,
         ...dasi_2.line_w, ...dasi_2.line_color,
         ...dasi_2.line_k, ...dasi_2.line_color,
-        ...dasi_2.line_l, ...dasi_2.line_color,//690
+        ...dasi_2.line_l, ...dasi_2.line_color,
         ...dasi_2.line_x, ...dasi_2.line_color,
         ...dasi_2.line_w, ...dasi_2.line_color,
         ...dasi_2.line_k, ...dasi_2.line_color,
@@ -230,15 +257,26 @@ function main() {
         ...dasi_2.line_n, ...dasi_2.line_color,
 
         //lubang putih dasi
-        ...dasi_2.line_t, ...dasi_2.line_green_color,
-        ...dasi_2.line_u, ...dasi_2.line_green_color,
-        ...dasi_2.line_v, ...dasi_2.line_green_color,
-        ...dasi_2.line_v, ...dasi_2.line_green_color,
-        ...dasi_2.line_u, ...dasi_2.line_green_color,
-        ...dasi_2.line_x, ...dasi_2.line_green_color,
-        ...dasi_2.line_v, ...dasi_2.line_green_color,
-        ...dasi_2.line_w, ...dasi_2.line_green_color,
-        ...dasi_2.line_x, ...dasi_2.line_green_color,
+        ...dasi_2.line_t, ...dasi_2.line_blue_color,
+        ...dasi_2.line_u, ...dasi_2.line_blue_color,
+        ...dasi_2.line_v, ...dasi_2.line_blue_color,
+        ...dasi_2.line_v, ...dasi_2.line_blue_color,
+        ...dasi_2.line_u, ...dasi_2.line_blue_color,
+        ...dasi_2.line_x, ...dasi_2.line_blue_color,
+        ...dasi_2.line_v, ...dasi_2.line_blue_color,
+        ...dasi_2.line_w, ...dasi_2.line_blue_color,
+        ...dasi_2.line_x, ...dasi_2.line_blue_color,
+
+        //logo gambar kanan
+        ...dasi_2.line_logo_a2, ...dasi_2.line_color_logo2,
+        ...dasi_2.line_logo_b2, ...dasi_2.line_color_logo2,
+        ...dasi_2.line_logo_c2, ...dasi_2.line_color_logo2,
+        ...dasi_2.line_logo_a2, ...dasi_2.line_color_logo2,
+        ...dasi_2.line_logo_c2, ...dasi_2.line_color_logo2,
+        ...dasi_2.line_logo_e2, ...dasi_2.line_color_logo2,
+        ...dasi_2.line_logo_c2, ...dasi_2.line_color_logo2,
+        ...dasi_2.line_logo_d2, ...dasi_2.line_color_logo2,
+        ...dasi_2.line_logo_e2, ...dasi_2.line_color_logo2,
         
     ];
 
@@ -311,52 +349,53 @@ function main() {
     gl.enableVertexAttribArray(aColor);
 
     var freeze = false;
-    // Interactive graphics with mouse
     function onMouseClick(event) {
         freeze = !freeze;
     }
     document.addEventListener("click", onMouseClick);
-    // Interactive graphics with keyboard
-    function onKeydown(event) {
-        if (event.keyCode == 32) freeze = true;
-    }
-
-    function onKeyup(event) {
-        if (event.keyCode == 32) freeze = false;
-    }
-    document.addEventListener("keydown", onKeydown);
-    document.addEventListener("keyup", onKeyup);
-
+    
+    //speed nrp
     var speed = 0.0036;
     var change = 0;
     var uChange = gl.getUniformLocation(shaderProgram, "uChange");
 
     function moveVertices() {
-
-        if (vertices[636]-0.05 < -1.0 || vertices[681]+0.07 > 1.0) {
+        // untuk membuat pas sesuai canvas
+        if (vertices[681]-0.05 < -1.0 || vertices[726]+0.07 > 1.0) {
             speed = speed * -1;
         }
 
-        for (let i = 421; i < vertices.length; i += 5) {
+        //array yang bergerak setelah 420 
+        for (let i = 466; i < vertices.length; i += 5) {
             vertices[i] = vertices[i] + speed;
         }
+
+        
+
     }
 
 
     function render() {
-        moveVertices();
+
+        if(!freeze){
+            moveVertices();
+        }
+
+        //moveVertices();
         gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
         gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
         change = change + speed;
         gl.uniform1f(uChange, change);
 
-        gl.clearColor(0.760, 1.0, 0.380, 1.0);
+        
+        gl.clearColor(0.0752, 0.738, 0.940, 1.0);
         gl.clear(gl.COLOR_BUFFER_BIT);
         var primitive = gl.TRIANGLES;
         var offset = 0;
-        var nVertex = 171;
+        var nVertex = 189;
         gl.drawArrays(primitive, offset, nVertex);
         requestAnimationFrame(render);
+
     }
     requestAnimationFrame(render);
 }

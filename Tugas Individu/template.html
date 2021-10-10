@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="js/three.min.js"></script>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<script>    
+        let scene, camera, renderer, cube, cylinder, circle, sphere;
+        
+        // set up the environment - 
+        // initiallize scene, camera, objects and renderer
+        let createball=function(){
+            const geometry = new THREE.SphereGeometry( 1, 32, 16 );
+            const material = new THREE.MeshBasicMaterial( { color: 0x6495ED, wireframe:true } );
+            sphere = new THREE.Mesh( geometry, material );
+            scene.add( sphere );
+        }
+
+        let createcircle= function(){
+            const geometry = new THREE.CircleGeometry( 1, 32 );
+            const material = new THREE.MeshBasicMaterial( { color: 0x00BFFF, side: THREE.DoubleSide, wireframe:true } );
+            circle = new THREE.Mesh( geometry, material );
+            scene.add( circle );
+        }
+
+        let createcylinder= function (){
+            const geometry = new THREE.CylinderGeometry( 1, 1, 2, 20 );
+            const material = new THREE.MeshBasicMaterial( {color: 0xffff00, wireframe:true} );
+            cylinder = new THREE.Mesh( geometry, material );
+            scene.add( cylinder );
+        }
+    
+        let createcube= function (){
+            const geometry = new THREE.BoxGeometry( 1.5, 1.5, 1.5 );
+            const material = new THREE.MeshBasicMaterial( {color: 0x8B0000, wireframe: true} );
+            cube = new THREE.Mesh( geometry, material );
+            scene.add( cube );
+        }
+
+        let init = function() {
+             // 1. create the scene
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0x000000);
+            
+            // 2. create an locate the camera       
+            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            camera.position.z = 6;
+            camera.position.x = -6;
+           
+            // 3. create an locate the object on the scene           
+            createcube();
+            createcylinder();
+            cylinder.position.x=-10;
+            createcircle();
+            circle.position.x=-5;
+            createball();
+            sphere.position.y=+3;
+
+            // 4. create the renderer     
+            renderer = new THREE.WebGLRenderer();   
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            
+            document.body.appendChild(renderer.domElement);
+
+        };
+      
+        
+        // main animation loop - calls 50-60 in a second.
+        let mainLoop = function() {
+            requestAnimationFrame(mainLoop);
+            renderer.render(scene, camera);
+            cube.rotation.x+=0.01;
+            cube.rotation.y+=0.01;
+            circle.rotation.y+=0.01;
+            cylinder.rotation.x+=0.01;
+            sphere.rotation.y+=0.03;
+        };
+        
+        ///////////////////////////////////////////////
+        init();
+        mainLoop();
+    </script>
+    

@@ -58,11 +58,11 @@
 
             // warna box
             const colorList = [
-                0xf044ff,
+                0xfbff44,
+                0x7FFF00,
                 0x449aff,
-                0x47ff44,
-                0xff4444,
-                0xfbff44
+                0xDB7093,
+                0x800080
             ];
             let color = colorList[Math.floor(randomInRange(0, 5))];
             let emissive = color + 0.05;
@@ -180,7 +180,7 @@
             // 1. create the scene
             // ...
             scene = new THREE.Scene();
-            scene.background = new THREE.Color(0x708090);
+            scene.background = new THREE.Color(0xFF6347);
             
             // 2. create an locate the camera       
             // ...
